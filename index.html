@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kenneth Sengco's ITE Elective 2 data analytics portfolio.">
+  <title>Kenneth Sengco | ITE Elective 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&family=Pirata+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Back to top"><span>KS</span><strong>ITE<br>PORTFOLIO</strong></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span>☰</span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#profile">[ PROFILE ]</a><a href="#syllabus">[ SYLLABUS ]</a><a href="#activities">[ ACTIVITIES ]</a>
+      <a href="#labs">[ LABS ]</a><a href="#quizzes">[ QUIZZES ]</a><a href="#projects">[ PROJECTS ]</a>
+      <a href="#exams">[ EXAMS ]</a><a href="#reflection">[ REFLECTION ]</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-grid" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">JOSE RIZAL UNIVERSITY · COLLEGE DIVISION</p>
+        <h1 id="hero-title"><span>KENNETH</span><em>SENGCO</em></h1>
+        <p class="hero-subtitle">ITE ELECTIVE 2 <b>·</b> DATA ANALYTICS</p>
+        <div class="tag-row"><span>[ ITC C503 ]</span><span>[ A.Y. 2026–2027 ]</span><span>[ BSIT 302i ]</span></div>
+        <p class="hero-intro">A hands-on record of learning to clean, calculate, code and communicate with data—from Excel workbooks to Python notebooks.</p>
+        <a class="button button-dark" href="#profile">Explore the portfolio <span>↘</span></a>
+      </div>
+      <div class="hero-mark" aria-hidden="true"><div class="circle-mark">DATA<br><b>+</b><br>DESIGN</div></div>
+      <div class="stat-strip" aria-label="Portfolio statistics">
+        <div><strong data-count="3">0</strong><span>Activities</span></div><div><strong data-count="8">0</strong><span>Labs</span></div>
+        <div><strong data-count="4">0</strong><span>Quizzes</span></div><div><strong data-count="2">0</strong><span>Projects</span></div>
+      </div>
+    </section>
+
+    <section id="contents" class="contents section-pad">
+      <div class="section-heading"><span class="label">START HERE</span><h2>Table of <em>contents</em></h2></div>
+      <div id="contents-grid" class="quick-grid"></div>
+    </section>
+
+    <section id="profile" class="section-pad section-dark">
+      <div class="section-heading light"><span class="label label-pink">01 · PROFILE</span><h2>Meet the <em>analyst</em></h2></div>
+      <div class="profile-layout">
+        <div class="profile-photo image-placeholder" data-image="profile.jpg"><img src="assets/images/profile.jpg" alt="Kenneth Sengco profile photo" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span>PROFILE PHOTO<br>profile.jpg</span></div>
+        <div class="profile-copy">
+          <p class="kicker">HELLO, I'M KENNETH.</p>
+          <h3>Sengco, Kenneth</h3>
+          <p>Hello, I'm Kenneth, a 3rd Year student taking BSIT at Jose Rizal University. I am interested in technology, especially building websites, designing networks, and working with data. This semester I worked on activities and projects that gave me hands-on experience with these areas. I enjoy learning by doing, and I like turning what I learn in class into real, working outputs. Outside school, I enjoy playing basketball and watching movies. I hope to graduate with strong technical and communication skills and build a career in technology and data analytics.</p>
+          <div class="info-columns"><div><b>PROGRAM</b><span>BS Information Technology<br>3rd Year · Section 302i</span></div><div><b>INSTRUCTOR</b><span>Virginia Loyola</span></div></div>
+          <div class="chip-row"><span>🏀 Basketball</span><span>🎬 Movies</span><span>💪 Work out</span><span>✈ Travelling</span></div>
+        </div>
+      </div>
+      <div class="profile-details"><div><h4>Education</h4><ul><li><b>Elementary</b> Tipas Elementary School, Taguig City</li><li><b>High school / SHS</b> Taguig National High School / JRU Senior High</li><li><b>College</b> Jose Rizal University, BSIT 3rd Year</li></ul></div><div><h4>Training & experience</h4><div class="badge-list"><span>Work on Penshoppe</span><span>Java Specialist Certifications</span><span>Database Certifications</span><span>Huawei Course Certifications</span></div></div></div>
+    </section>
+
+    <section id="syllabus" class="section-pad">
+      <div class="section-heading"><span class="label">02 · ROADMAP</span><h2>Course <em>syllabus</em></h2><p>From spreadsheet foundations to Python-powered data stories.</p></div>
+      <div id="syllabus-list" class="timeline"></div>
+    </section>
+
+    <section id="activities" class="section-pad section-amber">
+      <div class="section-heading"><span class="label">03 · CLASSWORK</span><h2>Classroom <em>activities</em></h2><p>Click a card to inspect the task, procedure and outcome.</p></div>
+      <div id="activities-grid" class="card-grid"></div>
+    </section>
+
+    <section id="labs" class="section-pad section-dark">
+      <div class="section-heading light"><span class="label label-pink">04 · PRACTICE</span><h2>Laboratory <em>activities</em></h2><p>Eight exercises spanning Excel analysis and Python programming.</p></div>
+      <div class="filter-row" role="group" aria-label="Filter laboratory activities"><button class="filter active" data-filter="ALL">ALL</button><button class="filter" data-filter="EXCEL">EXCEL</button><button class="filter" data-filter="PYTHON">PYTHON</button></div>
+      <div id="labs-grid" class="card-grid"></div>
+    </section>
+
+    <section id="quizzes" class="section-pad">
+      <div class="section-heading"><span class="label">05 · CHECKPOINTS</span><h2>Quizzes & <em>assessments</em></h2></div>
+      <div id="quizzes-grid" class="compact-grid"></div>
+    </section>
+
+    <section id="projects" class="section-pad section-pink">
+      <div class="section-heading"><span class="label">06 · OUTPUTS</span><h2>Projects & <em>performance</em></h2></div>
+      <div id="projects-grid" class="project-grid"></div>
+    </section>
+
+    <section id="exams" class="section-pad">
+      <div class="section-heading"><span class="label">07 · RESULTS</span><h2>Examination <em>results</em></h2></div>
+      <div id="exams-grid" class="compact-grid"></div>
+    </section>
+
+    <section id="reflection" class="section-pad section-dark">
+      <div class="section-heading light"><span class="label label-pink">08 · LOOKING BACK</span><h2>Learning <em>reflection</em></h2></div>
+      <div id="reflection-list" class="accordion"></div>
+      <blockquote>“I transformed unorganized raw datasets into actionable business intelligence—gaining both the coding proficiency and analytical mindset needed for a future career in information technology.”</blockquote>
+    </section>
+  </main>
+
+  <footer class="site-footer"><strong>KENNETH SENGCO</strong><span>©2026 · Jose Rizal University · College Division, Computer Science and Engineering</span><a href="#top">Back to top ↑</a></footer>
+
+  <dialog id="detail-modal" aria-labelledby="modal-title"><button class="modal-close" type="button" aria-label="Close details">×</button><div id="modal-content"></div></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
